@@ -1,0 +1,6 @@
+/* Logo size in the top navbar (theme default is 2.25rem / 36px tall) */
+.myst-home-link-logo img {
+  height: 3.5rem;
+  width: auto;
+  max-width: none;
+}

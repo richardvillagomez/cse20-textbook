@@ -12,5 +12,6 @@ site:
   template: book-theme
   primary_sidebar_footer: 'Hello'
   options:
-    logo: "assets/images/cse20-logo.png"
+    logo: "assets/images/full-logo.png"
     favicon: "assets/images/favicon.png"
+    style: "assets/custom.css"
