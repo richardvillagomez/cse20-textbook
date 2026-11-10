@@ -15,8 +15,8 @@ build:
   commands:
     # Install myst
     - npm install -g mystmd
-    # Build the site
-    - myst build --html
+    # Build the site (BASE_URL must match the path Read the Docs serves from, e.g. /en/latest)
+    - export BASE_URL="$(python -c "import os, urllib.parse; print(urllib.parse.urlparse(os.environ['READTHEDOCS_CANONICAL_URL']).path.rstrip('/'))")" && myst build --html
     # Copy the output to Read the Docs expected location
     - mkdir -p $READTHEDOCS_OUTPUT/html/
     - cp -r _build/html/. "$READTHEDOCS_OUTPUT/html"
