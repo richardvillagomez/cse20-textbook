@@ -8,4 +8,6 @@ Welcome to CSE 20! This textbook is designed to supplement your experience in th
 ```{tableofcontents}
 ```
 ---
-_This textbook is a work in progress._
+:::{caution} 🔧 Work in progress
+:icon: false
+This textbook is a work in progress.
