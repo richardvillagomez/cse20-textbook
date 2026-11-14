@@ -13,5 +13,5 @@ site:
   primary_sidebar_footer: 'Hello'
   options:
     logo: "assets/images/full-logo.png"
-    favicon: "assets/images/favicon.png"
+    favicon: "assets/images/logo.png"
     style: "assets/custom.css"
